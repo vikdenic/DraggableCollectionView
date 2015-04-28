@@ -25,6 +25,7 @@
 		8E947CE217545C370077D957 /* LSCollectionViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E947CDF17545C370077D957 /* LSCollectionViewHelper.m */; };
 		8E947CE317545C370077D957 /* LSCollectionViewLayoutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E947CE117545C370077D957 /* LSCollectionViewLayoutHelper.m */; };
 		8E955E881793ADF5008F72D9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E955E871793ADF5008F72D9 /* QuartzCore.framework */; };
+		93E116481AEFEE3B00F655C2 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E116471AEFEE3B00F655C2 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,8 @@
 		8E947CE017545C370077D957 /* LSCollectionViewLayoutHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCollectionViewLayoutHelper.h; sourceTree = "<group>"; };
 		8E947CE117545C370077D957 /* LSCollectionViewLayoutHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCollectionViewLayoutHelper.m; sourceTree = "<group>"; };
 		8E955E871793ADF5008F72D9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		93E116461AEFEE3B00F655C2 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		93E116471AEFEE3B00F655C2 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				8E11CC501759BB5E004D2284 /* MainStoryboard_iPhone.storyboard */,
 				8E947CC0175458980077D957 /* ViewController.h */,
 				8E947CC1175458980077D957 /* ViewController.m */,
+				93E116461AEFEE3B00F655C2 /* NextViewController.h */,
+				93E116471AEFEE3B00F655C2 /* NextViewController.m */,
 				8E947CD41754598E0077D957 /* Cell.h */,
 				8E947CD51754598E0077D957 /* Cell.m */,
 				8E947CC81754593B0077D957 /* DraggableCollectionView */,
@@ -235,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E947CAF175458980077D957 /* main.m in Sources */,
+				93E116481AEFEE3B00F655C2 /* NextViewController.m in Sources */,
 				8E947CB3175458980077D957 /* AppDelegate.m in Sources */,
 				8E947CC2175458980077D957 /* ViewController.m in Sources */,
 				8E947CD817545AF10077D957 /* Cell.m in Sources */,
